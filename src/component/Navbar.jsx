@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <div className='relative flex px-3 py-2 justify-between bg-[#280000] text-[#FDFFFF]'>
       <div className='flex gap-2 items-center'>
-        <Link to='/Profile'><img className='bg-cover w-8 rounded-full' src="src\assets\Aurixa.png" alt="" /></Link>
+        <Link to='/Profile'><img className='bg-cover w-8 rounded-full' src="src\assets\Aurixa.webp" alt="" /></Link>
         <h1 className='font-bold text-xl'>Aurixa</h1>
       </div>
       <select

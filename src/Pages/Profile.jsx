@@ -17,7 +17,7 @@ const Profile = () => {
     return (
         <div className='body p-4 '>
             <div className='flex items-center flex-col justify-center mt-4'>
-                <img className='border-2 border-amber-50 rounded-full bg-cover w-40' src="src\assets\Aurixa.png" alt="" />
+                <img className='border-2 border-amber-50 rounded-full bg-cover w-40' src="src\assets\Aurixa.webp" alt="" />
                 <h2 className='font-bold text-8xl'>Aurixa</h2>
                 {currentUser && <p className='text-2xl'>Welcome , {currentUser.name} ({currentUser.Role})</p>}
             </div>
