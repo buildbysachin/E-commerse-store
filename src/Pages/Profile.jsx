@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { SquarePen } from 'lucide-react';
 import { ProductContext } from '../Contex/ProductContex';
+import logoImg from '../assets/Aurixa.webp';
 
 const Profile = () => {
     const { currentUser, setCurrentUser } = useContext(ProductContext)
@@ -17,7 +18,7 @@ const Profile = () => {
     return (
         <div className='body p-4 '>
             <div className='flex items-center flex-col justify-center mt-4'>
-                <img className='border-2 border-amber-50 rounded-full bg-cover w-40' src="src\assets\Aurixa.webp" alt="" />
+                <img className='border-2 border-amber-50 rounded-full bg-cover w-40' src={logoImg} alt="logo" />
                 <h2 className='font-bold text-8xl'>Aurixa</h2>
                 {currentUser && <p className='text-2xl'>Welcome , {currentUser.name} ({currentUser.Role})</p>}
             </div>

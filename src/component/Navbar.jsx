@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ProductContext } from '../Contex/ProductContex'
 import { Bell, Menu, X } from 'lucide-react';
+import logoImg from '../assets/Aurixa.webp';
 
 const Navbar = () => {
   const { categoryWise, setCategoryWise, currentUser, isRead, setIsRead } = useContext(ProductContext)
@@ -29,7 +30,7 @@ const Navbar = () => {
   return (
     <div className='relative flex px-3 py-2 justify-between bg-[#280000] text-[#FDFFFF]'>
       <div className='flex gap-2 items-center'>
-        <Link to='/Profile'><img className='bg-cover w-8 rounded-full' src="src\assets\Aurixa.webp" alt="" /></Link>
+        <Link to='/Profile'><img className='bg-cover w-8 rounded-full' src={logoImg} alt="logo" /></Link>
         <h1 className='font-bold text-xl'>Aurixa</h1>
       </div>
       <select
