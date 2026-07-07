@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+html,body{
+  background-color: #ffffff;
+  color: #570000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input input{
+  border: 1px solid black;
+  width: 450px;
+  padding: 5px;
+  background-color: #DE7C5A;
+}
+
+.ProductDetails input {
+  border: 1px solid rgb(12, 6, 6);
+  color:rgb(59, 3, 59);
+  font-size:17px;
+  padding-left: 3px;
+}
+
+.ProductDetails h2{
+  font-weight: 700;
+  font-size: larger;
+}
+
+.bgimage {
+  background-image: url('./assets/image2.webp');
+}
+
+.Details h1{
+  display: flex;
+  gap: 12px;
+  border: 2px solid white;
+  padding: 10px;
+  width: 550px;
+  font-size: 40px;
+  background-color: rgb(170, 156, 156);
+  color: #111;
+}
+
+.Details div {
+  display: flex;
+  gap: 6px;
+  text-align: right;
+}
+
+.Dataready h1 {
+  border: 2px solid black;
+  font-size: 30px;
+  padding: 5px 10px 5px 10px;
+  background-color: #570000;
+  color: #fdffff;
+  width: 500px;
+}
+
+.Dataready div {
+  display: flex;
+  gap: 5px;
+}
+
+.alldetail p{
+  display: flex;
+  justify-content:start;
+  gap: 13px;
+}
+
+.alldetail p b {
+  color: #d9ff00;
+}
+
+.btn button{
+  background-color: #ffffff;
+  color: #570000;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.btn button:active{
+  scale: 97%;
+}
