@@ -9,7 +9,7 @@ import Signincontext from './Contex/Signincontext.jsx'
 createRoot(document.getElementById('root')).render(
   <Signincontext>
     <ProductContex>
-      <HashRouter basename="E-commerse-store">
+      <HashRouter>
         <App />
       </HashRouter>
     </ProductContex>
